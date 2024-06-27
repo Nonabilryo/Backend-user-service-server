@@ -41,6 +41,9 @@ dependencies {
 //    testImplementation("org.springframework.kafka:spring-kafka-test")
     testImplementation("org.springframework.restdocs:spring-restdocs-mockmvc")
 //    testImplementation("org.springframework.security:spring-security-test")
+
+    //amazon
+    implementation("org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE")
 }
 
 dependencyManagement {

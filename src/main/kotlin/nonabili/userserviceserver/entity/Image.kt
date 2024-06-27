@@ -13,7 +13,7 @@ import java.util.UUID
 data class Image(
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    val uuid: UUID = UUID.randomUUID(),
+    val idx: UUID = UUID.randomUUID(),
     @Column(name = "url", unique = true, nullable = false, length = 255)
     val url: String
 )

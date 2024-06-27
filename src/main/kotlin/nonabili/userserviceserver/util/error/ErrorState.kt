@@ -12,6 +12,7 @@ enum class ErrorState(val status: HttpStatus = HttpStatus.OK, val message: Strin
     EMAIL_IS_ALREADY_USED(HttpStatus.BAD_REQUEST, "Email is already used"),
 
     NOT_FOUND_ID(HttpStatus.NOT_FOUND, "Not found Id"),
+    NOT_FOUND_IDX(HttpStatus.NOT_FOUND, "Not found Idx"),
     NOT_FOUND_USERNAME(HttpStatus.NOT_FOUND, "Not found user"),
 
     WRONG_PASSWORD(HttpStatus.BAD_REQUEST, "Wrong password"),
